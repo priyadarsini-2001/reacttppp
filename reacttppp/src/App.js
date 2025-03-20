@@ -1,4 +1,4 @@
-function App()
+/*function App()
 { 
   var avg=65;
   return(
