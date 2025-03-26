@@ -1,3 +1,66 @@
+function App(props)
+{
+  return(
+    <>
+    <h1>Roll Number:{props.rno}</h1>
+    <h1>Student Name:{props.sname}</h1>
+    <h1>Mark:{props.mark}</h1>
+
+    </>
+  )
+} 
+export default App
+/*import './App.css'
+function App()
+{
+  //simple jsx
+  const v1=<h1>welcome to header1</h1>
+  //One top level element  
+  const v2=<>One top level  <h1> header1</h1><h2> header2</h2></>
+  //3.Expression
+  var a=10;
+  var b=20;
+  const v3=<h1>Total:{a+b} </h1>
+  //4.element must be closed 
+  var v4=<hr/>
+  //5.using attribute classname instead of class
+  var v5=<h2 id="my id" className="myclass">this is css style</h2> 
+   var mystyle={
+    backgroundColor:"yellow",
+    fontSize:"24px",
+    fontFamily:"Times",
+    border:"10px double red",
+    textAlign:"center",
+    color:"green",
+    textTransform:"uppercase"   
+  } 
+  
+ return(
+    <>
+    <h1>Inline css</h1>
+  <h1 style={{backgroundColor:'yellow',color:'red'}}>React JSX - javascript & XML - allow html code in react</h1>
+  simple header :{v1}
+  mutiple header:{v2}
+  {v3} 
+  {v4} 
+  {v5} 
+  <h1 style={mystyle}>this is header</h1>
+  <h1 style={mystyle}>this is header</h1>
+  <h1 style={mystyle}>this is header</h1>
+  <h1 style={mystyle}>this is header</h1>
+  <h1 style={mystyle}>this is header</h1>
+  <h1 style={mystyle}>this is header</h1> 
+  <h6>this is header6</h6>
+  <h6>this is header6</h6>
+  <h6>this is header6</h6>
+  <h6>this is header6</h6>
+  <h6>this is header6</h6>
+  <h6>this is header6</h6>
+
+   </>
+)
+} 
+export default App
 /*function App()
 { 
   var avg=65;
